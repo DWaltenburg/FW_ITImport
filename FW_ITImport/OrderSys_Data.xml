@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordersys>
+  <users>
+    <user name="Admin" password="admin1234"></user>
+    <user name="Henrik" password="asdf1234"></user>
+    <user name="Rikke" password="rikke123"></user>
+    <user name="Torben" password="torb1234"></user>
+  </users>
+  <categories>
+    <category cid="1" name="Cases"></category>
+    <category cid="2" name="Cooling"></category>
+    <category cid="3" name="CPU - AMD"></category>
+    <category cid="4" name="CPU - Intel"></category>
+    <category cid="5" name="GPU - AMD"></category>
+    <category cid="6" name="GPU - NVidia"></category>
+    <category cid="7" name="Hard drives - Internal"></category>
+    <category cid="8" name="Memory - RAM"></category>
+    <category cid="9" name="Motherboards - AMD"></category>
+    <category cid="10" name="Motherboards - Intel"></category>
+  </categories>
+  <products>
+    <product pid="LN76613" cid="1" location="A12L" shelf="3">
+      <name>Corsair Black Carbide 270R Midi PC Gaming Case</name>
+      <description>Corsair Carbide 270R Mid Tower Computer Chassis, ATX/Micro ATX/Mini ITX, with Water Cooling Radiator Support, USB 3.0</description>
+    </product>
+    <product pid="LN92193" cid="1" location="A12L" shelf="4">
+      <name>Aerocool CS-102 Black Mid Tower Case</name>
+      <description>Aerocool CS-102 Black Mid Tower Case 2 x USB2 1 x USB3</description>
+    </product>
+    <product pid="LN55489" cid="1" location="A27R" shelf="1">
+      <name>Coolermaster N300 Mid Tower Case</name>
+      <description>Cooler Master N300 Black Mid Tower Performance Case w/o PSU</description>
+    </product>
+    <product pid="LN83363" cid="3" location="B31L" shelf="5">
+      <name>AMD 12 Core Ryzen Threadripper 1920X Unlocked CPU/Processor</name>
+      <description>AMD Ryzen™ Threadripper 1920X, S TR4, 12 Core, 24 Thread, 3.5GHz, 4.0GHz Turbo, 38MB, 64 Lane, 180W, CPU, Retail</description>
+    </product>
+    <product pid="LN78872" cid="3" location="B11R" shelf="3">
+      <name>AMD Ryzen™ 7 1700 8 Core AM4 CPU/Processor with Wraith Spire 95W cooler</name>
+      <description>AMD Ryzen™ 7 1700, S AM4, 8 Core, 16 Thread, 3.0GHz, 3.7GHz Turbo, 16MB Cache, 65W, CPU, Retail, w/ Wraith Spire Cooler</description>
+    </product>
+    <product pid="LN79706" cid="3" location="A11L" shelf="1">
+      <name>AMD Ryzen 5 1400 Quad Core AM4 CPU/Processor with Wraith Stealth 65W cooler</name>
+      <description>AMD Ryzen™ 5 1400, S AM4, Quad Core, 8 Thread, 3.2GHz, 3.4GHz Turbo, 8MB Cache, 65W, CPU, Retail,+ Wraith Stealth Cooler</description>
+    </product>
+    <product pid="LN72342" cid="4" location="B21L" shelf="1">
+      <name>Intel i7 6800K Broadwell Extreme Unlocked CPU/Processor</name>
+      <description>Intel Core i7 6800K, S 2011-3, Broadwell-E, Six Core, 12 Thread, 3.4GHz Clock, 3.8GHz Turbo, 15MB, 28 Lane, 140W, Retail</description>
+    </product>
+    <product pid="LN84226" cid="4" location="B22R" shelf="3">
+      <name>Intel Core i7 8700K Unlocked Coffee Lake Desktop Processor/CPU Retail</name>
+      <description>Intel Core i7 8700K, S 1151, Coffee Lake, 6 Core, 12 Thread, 3.7GHz, 4.7GHz Turbo, 12MB Cache, 1200MHz GPU, 95W, CPU Box</description>
+    </product>
+    <product pid="LN84221" cid="4" location="B23L" shelf="2">
+      <name>Intel Core i3 8350K Unlocked Coffee Lake Desktop Processor/CPU</name>
+      <description>Intel Core i3 8350K, S 1151, Coffee Lake, Quad Core, 4 Thread, 4.0GHz, 8MB Cache, 1150MHz GPU, 91W, CPU, Box</description>
+    </product>
+    <product pid="LN89172" cid="9" location="A42L" shelf="1">
+      <name>AORUS AMD Ryzen X470 Ultra Gaming AM4 ATX Motherboard</name>
+      <description>Gigabyte X470 AORUS ULTRA GAMING, AMD X470, S AM4, DDR4, SATA3, Dual M.2, 2-Way SLi/CrossFire, GbE, USB3.1 Gen2 A+C, ATX</description>
+    </product>
+    <product pid="LN83525" cid="9" location="A42L" shelf="2">
+      <name>MSI AMD Threadripper X399 GAMING PRO CARBON AC TR4 ATX Motherboard</name>
+      <description>MSI X399 GAMING PRO CARBON AC, AMD X399, S TR4, DDR4, SATA3, Triple M.2, 4-Way SLi/CrossFire, GbE/WiFi, USB 3.1 A+C, ATX</description>
+    </product>
+  </products>
+  <customers>
+    <customer custid="12121245" phone="+4512121210">
+      <name>Danish Hardware Import</name>
+      <address1>Skelvej 1</address1>
+      <address2></address2>
+      <address3>9000 Aalborg</address3>
+    </customer>
+    <customer custid="12345601" phone="+4512341234">
+      <name>PC Butikken</name>
+      <address1>Skelvej 3</address1>
+      <address2></address2>
+      <address3>9000 Aalborg</address3>
+    </customer>
+    <customer custid="24545612" phone="+4512345678">
+      <name>Software ApS</name>
+      <address1>Firmavej 3</address1>
+      <address2></address2>
+      <address3>9900 Frederikshavn</address3>
+    </customer>
+  </customers>
+  <orders>
+    <order oid="1" date="2018-11-04" custid="12121245" packedby="Henrik">
+      <orderline olid="1" pid="LN76613" quantity="1"></orderline>
+      <orderline olid="2" pid="LN83363" quantity="1"></orderline>
+      <orderline olid="3" pid="LN89172" quantity="1"></orderline>
+    </order>
+    <order oid="2" date="2018-11-05" custid="12345601" packedby="Rikke">
+      <orderline olid="1" pid="LN92193" quantity="1"></orderline>
+      <orderline olid="2" pid="LN78872" quantity="2"></orderline>
+      <orderline olid="3" pid="LN83525" quantity="2"></orderline>
+    </order>
+    <order oid="3" date="2018-11-05" custid="24545612" packedby="Torben">
+      <orderline olid="1" pid="LN92193" quantity="1"></orderline>
+      <orderline olid="2" pid="LN78872" quantity="2"></orderline>
+      <orderline olid="3" pid="LN83525" quantity="2"></orderline>
+    </order>
+    <order oid="4" date="2018-11-05" custid="12121245" packedby="Rikke">
+      <orderline olid="1" pid="LN92193" quantity="1"></orderline>
+      <orderline olid="2" pid="LN78872" quantity="2"></orderline>
+      <orderline olid="3" pid="LN83525" quantity="2"></orderline>
+    </order>
+  </orders>
+</ordersys>

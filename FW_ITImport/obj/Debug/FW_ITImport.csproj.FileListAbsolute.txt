@@ -1,0 +1,7 @@
+C:\Users\henk\source\repos\FW_ITImport\FW_ITImport\bin\Debug\FW_ITImport.exe.config
+C:\Users\henk\source\repos\FW_ITImport\FW_ITImport\bin\Debug\FW_ITImport.exe
+C:\Users\henk\source\repos\FW_ITImport\FW_ITImport\bin\Debug\FW_ITImport.pdb
+C:\Users\henk\source\repos\FW_ITImport\FW_ITImport\obj\Debug\FW_ITImport.csproj.CoreCompileInputs.cache
+C:\Users\henk\source\repos\FW_ITImport\FW_ITImport\obj\Debug\FW_ITImport.exe
+C:\Users\henk\source\repos\FW_ITImport\FW_ITImport\obj\Debug\FW_ITImport.pdb
+C:\Users\henk\source\repos\FW_ITImport\FW_ITImport\obj\Debug\FW_ITImport.csprojAssemblyReference.cache
